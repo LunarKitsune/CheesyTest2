@@ -4,7 +4,10 @@ import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
 public class CheeseBaseGenerator implements DataGeneratorEntrypoint {
-
+/*
+ * Have yet to register the CheesyItemGenerator into the base generator.
+ * This class is not complete yet.
+ */
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
