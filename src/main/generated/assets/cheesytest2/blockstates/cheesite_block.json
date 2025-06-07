@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cheesytest2:block/cheesite_block"
+    }
+  }
+}
