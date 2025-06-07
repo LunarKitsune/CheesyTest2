@@ -15,6 +15,7 @@ public class Cheesytest2 implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("MAIN MOD INITIATED SUCCESSFULLY");
         CheesyModItems.initialize();
+        CheesyModBlocks.initialize();
 
 
     }
