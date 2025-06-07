@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "got_logs": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "You can now craft Cheesyite!",
+    "icon": {
+      "count": 1,
+      "id": "cheesytest2:cheesite"
+    },
+    "title": "You get Cheesyite!"
+  },
+  "requirements": [
+    [
+      "got_logs"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
