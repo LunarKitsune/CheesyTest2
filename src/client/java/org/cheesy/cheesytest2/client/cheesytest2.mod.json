@@ -1,0 +1,10 @@
+{
+  "entrypoints": {
+    "main": [
+
+    ],
+    "fabric-datagen": [
+      "org.cheesy.cheesytest2.DataGen.CheesyDataGen"
+    ]
+  }
+}

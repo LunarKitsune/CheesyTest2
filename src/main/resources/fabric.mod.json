@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "cheesytest2",
+  "version": "${version}",
+  "name": "CheesyTest2",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cheesytest2/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.cheesy.cheesytest2.client.Cheesytest2DataGenerator"
+    ],
+    "client": [
+      "org.cheesy.cheesytest2.client.Cheesytest2Client"
+    ],
+    "main": [
+      "org.cheesy.cheesytest2.Cheesytest2"
+    ]
+  },
+  "mixins": [
+    "cheesytest2.mixins.json",
+    {
+      "config": "cheesytest2.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
