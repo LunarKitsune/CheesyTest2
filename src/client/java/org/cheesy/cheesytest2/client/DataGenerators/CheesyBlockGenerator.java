@@ -1,4 +1,4 @@
-package org.cheesy.cheesytest2.client;
+package org.cheesy.cheesytest2.client.DataGenerators;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;

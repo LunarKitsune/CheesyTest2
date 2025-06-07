@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "org.cheesy.cheesytest2.client.Cheesytest2DataGenerator"
+      "org.cheesy.cheesytest2.client.DataGenerators.CheeseBaseGenerator"
     ],
     "client": [
       "org.cheesy.cheesytest2.client.Cheesytest2Client"

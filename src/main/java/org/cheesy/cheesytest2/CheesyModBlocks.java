@@ -1,4 +1,4 @@
 package org.cheesy.cheesytest2;
 
-public class ModItems {
+public class CheesyModBlocks {
 }

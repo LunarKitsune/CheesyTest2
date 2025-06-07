@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "models": "cheesytest2:item/cheesyite"
+    "model": "cheesytest2:item/cheesite"
   }
 }

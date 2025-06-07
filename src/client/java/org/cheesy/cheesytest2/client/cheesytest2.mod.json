@@ -4,7 +4,7 @@
 
     ],
     "fabric-datagen": [
-      "org.cheesy.cheesytest2.DataGen.CheesyDataGen"
+      "java/org/cheesy/cheesytest2/client/Cheesytest2DataGenerator.java"
     ]
   }
 }

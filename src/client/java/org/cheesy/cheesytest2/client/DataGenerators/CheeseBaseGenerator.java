@@ -1,18 +1,17 @@
-package org.cheesy.cheesytest2.client;
+package org.cheesy.cheesytest2.client.DataGenerators;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.advancement.AdvancementProvider;
 
-public class CheesyBaseGenerator implements DataGeneratorEntrypoint {
+public class CheeseBaseGenerator implements DataGeneratorEntrypoint {
 
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
-        pack.addProvider(CheesyAdvancementProvider::new);
+        pack.addProvider(CheesyAdvancementGenerator::new);
         pack.addProvider(CheesyRecipeGenerator::new);
         pack.addProvider(CheesyBlockGenerator::new);
+        pack.addProvider(CheesyTagGenerator::new);
     }
 
 

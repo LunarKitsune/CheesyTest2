@@ -1,4 +1,4 @@
-package org.cheesy.cheesytest2.client;
+package org.cheesy.cheesytest2.client.DataGenerators;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -7,12 +7,10 @@ import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
-import net.minecraft.registry.RegistryEntryLookup;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
-import org.cheesy.cheesytest2.ModItems;
+import org.cheesy.cheesytest2.CheesyModItems;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -28,7 +26,7 @@ public class CheesyRecipeGenerator extends FabricRecipeProvider {
             @Override
             public void generate() {
 
-                createShaped(RecipeCategory.MISC, ModItems.Cheesyite, 1)
+                createShaped(RecipeCategory.MISC, CheesyModItems.Cheesyite, 1)
                         .pattern("www")
                         .input('w', ItemTags.LOGS)
                         .group("testItems")
